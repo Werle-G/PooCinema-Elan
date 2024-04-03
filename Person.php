@@ -10,8 +10,6 @@ class Person{
     //  protected : données uniquement accesssible à la classe fille. 
 
 
-
- 
     protected string $name;
     protected string $firstname;
     protected string $gender;
@@ -60,8 +58,5 @@ class Person{
         {$this->gender} {$this->birth_date}";
     }
 
-    // public function info(){
-    //     echo 
-    // }
 }
 ?>
